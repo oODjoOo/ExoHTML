@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\Exomibilefirst.css">
+    <title>Exo Mobile First</title>
+</head>
+<body>
+    <header>
+        <h1>Boulangerie Parisienne</h1>
+        <nav>
+           <a href="#">A propos</a>
+           <a href="#">Menu</a>
+           <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="start">
+            <h2>Bienvenue à la Boulangerie Parisienne</h2>
+            <p>Découvrez nos délicieuses pâtisseries et pains frais</p>
+            <button><a href="#">Voir le menu</a></button>
+        </section>
+        <section class="intro">
+            <h3>A Propos de Nous</h3>
+            <p>Située au coeur de Paris, notre boulangerie vous propose des produits frais et faits maison chaque jour.</p>
+        </section>
+        <h3>Notre Menu</h3>
+        <section class="container">
+            <article>
+                <img src="img\croissants.jpg" alt="des croissants">
+                <h4>Croissant</h4>
+                <p>Un croissant au beurre délicieux.</p>
+            </article>
+            <article>
+                <img src="img\baguettes.jpg" alt="des baguettes">
+                <h4>Baguette</h4>
+                <p>Notre célèbre baguette croustillante.</p>
+            </article>
+            <article>
+                <img src="img\chocolatine.jpg" alt="des pains au chocolat">
+                <h4>Pain au Chocolat</h4>
+                <p>Un délicieux pain au chocolat</p>
+            </article>
+            <article>
+                <img src="img\eclairs.jpg" alt="des éclair aux chocolat">
+                <h4>Eclair au Chocolat</h4>
+                <p>Un éclair avec une crème au chocolat.</p>
+            </article>
+            <article>
+                <img src="img\macarons.jpg" alt="des macarons">
+                <h4>Macarons</h4>
+                <p>Assortiment de macarons de différentes saveurs.</p>
+            </article>
+            <article>
+                <img src="img\tartes.jpg" alt="une tarte aux fruits">
+                <h4>Tarte aux Fruits</h4>
+                <p>Une tarte garnie de fruits frais.</p>
+            </article>
+        </section>
+        <section>
+            <h5>Contactez-nous</h5>
+            <p>Adresse: 123 Rue de Paris, 75001 Paris</p>
+            <p>Téléphone: 01 23 45 67 89</p>
+            <p>Email:contact@boulangerieparisienne.fr</p>
+        </section>
+        <form action="/ma-page-de-traitement" method="post">
+            <ul>
+              <li>
+                <label for="name">Nom&nbsp;:</label>
+                <input type="text" id="name" name="user_name" />
+              </li>
+              <li>
+                <label for="mail">E-mail&nbsp;:</label>
+                <input type="email" id="mail" name="user_mail" />
+              </li>
+              <li>
+                <label for="sujet">Sujet&nbsp;:</label>
+                <input type="sujet" id="sujet" name="user_sujet" />
+              </li>
+              <li>
+                <label for="msg">message&nbsp;:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+            </ul>
+            <button><a href="#">Envoyer</a></button>
+          </form>
+          
+    </main>
+
+
+
+
+    <footer>
+        <p>&copy 2024 - Boulangerie Parisienne. Tous droits réservés.</p>
+
+    </footer>
+</body>
+</html>
